@@ -1,0 +1,2430 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#"
+     xml:base="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17"
+     xmlns:antologies="http://www.pizza.owl/antologies/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000103 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000103">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000092 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000092">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isEnemyOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000093 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000093">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isFriendOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000094 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000094">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isRoommateOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000098 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000098">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isSiblingOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000099 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000099">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isTeacherOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000100 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000100">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">belongsTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000101 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000101">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isHeadOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000102 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000102">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isA</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000104 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000104">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasWandMadeOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000114 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000114">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasBloodStatus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000115 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000115">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasCompanion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000121 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000121">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasPatronus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000124 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000124">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">wasRaisedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000125 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000125">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasDislikeFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000126 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000126">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasSpouse</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000127 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000127">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasChild</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000024 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000024">
+        <antologies:PIZZA_0000103></antologies:PIZZA_0000103>
+        <antologies:PIZZA_0000103 xml:lang="en">Hogwarts School of Witchcraft and Wizardry, shortened to Hogwarts, is a fictional British school of magic for students aged eleven to eighteen, and is the primary setting for the first six books in J.K. Rowling&apos;s Harry Potter series.  - https://en.wikipedia.org/wiki/Hogwarts</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hogwarts_Castle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000025 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000025">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000024"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A character is a person or other being in a narrative work of art. 
+https://en.wikipedia.org/wiki/Character_(arts)</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000026 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000026">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000024"/>
+        <rdfs:label xml:lang="en">Houses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000027 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000027">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli.
+https://www.google.ca/search?q=Dictionary#dobs=animal</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Animals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000028 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000028">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <rdfs:label xml:lang="en">Teachers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000029 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000029">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <rdfs:label xml:lang="en">Students</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000030 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/Traits"/>
+        <rdfs:label xml:lang="en">Wands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000032 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000032">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/Traits"/>
+        <rdfs:label xml:lang="en">Blood_Status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000034 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Gryffindor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000035 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000026"/>
+        <rdfs:label xml:lang="en">Ravenclaw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000036 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000036">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000026"/>
+        <rdfs:label xml:lang="en">Slytherin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000037 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000026"/>
+        <rdfs:label xml:lang="en">Hufflepuff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000038 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000038">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <rdfs:label xml:lang="en">Ghosts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000039 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>kkkk</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Harry_Potter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000040 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Ron_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000041 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000073"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Hermione_Granger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000042 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Neville_Longbottom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000043 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Draco_Malfoy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000044 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Luna_Lovegood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000045 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Ginny_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000046 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Fred_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000047 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">George_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000048 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Filius_Flitwick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000049 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Minerva_McGonagall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000050 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Pomona_Sprout</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000051 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Severus_Snape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000052 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Albus_Dumbledore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000053 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000053">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Hedwig (d. 27 July, 1997) was Harry Potter&apos;s pet Snowy Owl (Bubo scandiacus). Hedwig was an 11th birthday gift from Rubeus Hagrid to Harry. Hagrid purchased her at Eeylops Owl Emporium.
+http://harrypotter.wikia.com/wiki/Hedwig</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hedwig</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000054 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000120"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Scabbers was the pet of Ron Weasley in the first three instalments of the series. He originally belonged to Ron&apos;s brother, Percy, but when Percy was given an owl as a reward for becoming a prefect, Scabbers was handed down to Ron.
+http://harrypotter.neoseeker.com/wiki/Scabbers
+
+Revealed later:
+After framing Sirius Black for the crimes of betraying James and Lily Potter and murdering twelve Muggles, Pettigrew went into hiding in his Animagus form, and disguised himself as a rat named Scabbers.
+http://harrypotter.wikia.com/wiki/Scabbers#Scabbers</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Scabbers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000055 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">From the third book to the sixth, Crookshanks is Hermione Granger&apos;s pet cat. Crookshanks was purchased by Hermione in a shop called Magical Menagerie in the third Harry Potter book; Harry Potter and The Prisoner Of Azkaban.
+https://en.wikipedia.org/wiki/Magical_creatures_in_Harry_Potter#Crookshanks</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Crookshanks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000056 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000056">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Fang is a large boarhound (portrayed in the films by a Neapolitan Mastiff) that, aside from his enormous size, appears to be an entirely ordinary dog. While Fang&apos;s appearance is intimidating, he is, in Hagrid&apos;s words, &quot;a bloody coward.&quot; Boisterous and loving with people he knows, he seems to enjoy licking Harry, Ron, or Hermione around the face or ears.
+https://en.wikipedia.org/wiki/Rubeus_Hagrid#Buckbeak</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Fang</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000057 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000057">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Trevor was Neville Longbottom&apos;s pet toad. He was given to Neville by his Great-Uncle Algie upon Neville&apos;s gaining admission to Hogwarts School of Witchcraft and Wizardry
+http://harrypotter.wikia.com/wiki/Trevor</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Trevor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000058 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000058">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Buckbeak, along with eleven other hippogriffs, is introduced during one of Hagrid’s Care of Magical Creatures classes. Hagrid explains that hippogriffs are very calm, powerful, proud creatures, but are sensitive and demand respect. Harry successfully approaches Buckbeak, who allows him to ride him around the paddock.
+https://en.wikipedia.org/wiki/Rubeus_Hagrid#Buckbeak</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Buckbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000059 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000059">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A male deer.
+https://www.google.ca/search?q=Dictionary#dobs=stag</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Stag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000060 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000060">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">The Jack Russell Terrier is a small terrier that has its origins in fox hunting. It is principally white-bodied and smooth, rough or broken-coated but can be any colour.
+https://en.wikipedia.org/wiki/Jack_Russell_Terrier</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Jack_Russel_Terrier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000061 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000061">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A semiaquatic fish-eating mammal of the weasel family, with an elongated body, dense fur, and webbed feet.
+https://www.google.ca/search?q=Dictionary#dobs=otter</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Otter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000062 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000062">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">Hares and jackrabbits are leporids belonging to the genus Lepus. Hares are classified into the same family as rabbits. They are similar in size and form to rabbits and eat the same diet. They are generally herbivorous and long-eared, they are fast runners, and they typically live solitarily or in pairs. Hare species are native to Africa, Eurasia, North America, and the Japanese archipelago.
+https://en.wikipedia.org/wiki/Hare</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000063 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000063">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">In Greek mythology, a phoenix (Ancient Greek: φοῖνιξ phoînix) is a long-lived bird that cyclically regenerates or is otherwise born again
+https://en.wikipedia.org/wiki/Phoenix_(mythology)</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Phoenix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000064 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000064">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A deer: a female deer.
+https://www.youtube.com/watch?v=1RW3nDRmu6k</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Doe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000065 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000065">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines.
+https://en.wikipedia.org/wiki/Cat</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000066 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000066">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000032"/>
+        <rdfs:label xml:lang="en">Pure_Blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000067 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000067">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000032"/>
+        <rdfs:label xml:lang="en">Half_Blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000068 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000068">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000032"/>
+        <rdfs:label xml:lang="en">Muggle_Born</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000069 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000069">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000030"/>
+        <rdfs:label xml:lang="en">Core</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000071 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000071">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <rdfs:label xml:lang="en">Holly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000072 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000072">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <rdfs:label xml:lang="en">Willow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000073 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000073">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <rdfs:label xml:lang="en">Vine_Wood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000074 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000074">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <rdfs:label xml:lang="en">Cherry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000075 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000075">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <rdfs:label xml:lang="en">Hawthorn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000076 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000076">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000069"/>
+        <rdfs:label xml:lang="en">Phoenix_Feather</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000077 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000077">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000069"/>
+        <rdfs:label xml:lang="en">Unicorn_Hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000078 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000078">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000069"/>
+        <rdfs:label xml:lang="en">Dragon_Heartstring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000080 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000080">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <rdfs:label xml:lang="en">Other_Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000081 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000081">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Voldemort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000082 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000082">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000126"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Molly_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000083 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000083">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000126"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Arthur_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000084 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000126"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Aunt_Petunia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000085 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000085">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000126"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Uncle_Vernon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000086 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Dudley_Dursley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000087 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000087">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Bloody_Baron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000088 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Fat_Friar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000089 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Grey_Lady</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000090 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Nearly_Headless_Nick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000105 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000105">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000030"/>
+        <rdfs:label xml:lang="en">Wood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000106 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000106">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <rdfs:label xml:lang="en">Yew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000108 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000108">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <rdfs:label xml:lang="en">Fir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000109 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000109">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000069"/>
+        <rdfs:label xml:lang="en">Thestral_Hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000110 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000110">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <rdfs:label xml:lang="en">Elder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000111 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Rubeus_Hagrid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000112 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000112">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <rdfs:label xml:lang="en">Oak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000116 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000116">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A nocturnal bird of prey with large forward-facing eyes surrounded by facial disks, a hooked beak, and typically a loud call.
+https://www.google.ca/search?q=Dictionary#dobs=owl</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Owl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000117 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000117">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">The hippogriff...is a legendary creature which has the front half of an eagle and the hind half of a horse.
+https://en.wikipedia.org/wiki/Hippogriff</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hippogriff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000118 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000118">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">The domestic dog is a member of the genus Canis, which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.
+https://en.wikipedia.org/wiki/Dog
+
+A common pet.</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000119 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000119">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A tailless amphibian with a short stout body and short legs, typically having dry warty skin.
+https://www.google.ca/search?q=Dictionary#dobs=toad</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Toad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000120 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000120">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A rodent that resembles a large mouse, typically having a pointed snout and a long, sparsely haired tail.
+https://www.google.ca/search?q=Dictionary#dobs=rat</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Rat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000122 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000122">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">Horses are strong, intelligent, and social animals that live together in herds in the wild. All members of the horse family have just one toe (a hoof) on each foot. ... Horses have slim legs and can run fast. Their coat is short except for longer hair on the mane and tail.
+https://www.dkfindout.com/us/animals-and-nature/horses/what-is-horse/</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Horse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000123 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000123">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">Weasels are small mammals with long bodies and necks, short legs and small heads. They are closely related to ermine, ferrets, polecats and minks — all members of the Mustela genus — and are in the same family (Mustelids) as badgers, wolverines and otters.
+https://www.livescience.com/57475-weasel-facts.html</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Weasel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/Traits -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/Traits">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000024"/>
+        <rdfs:label xml:lang="en">Traits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000030"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000030"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000032"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000037"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000052"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000053"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000054"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000055"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000056"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000057"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000058"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000053"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000054"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000055"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000056"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000057"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000058"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000059"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000060"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000061"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000062"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000063"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000064"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000065"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000068"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000071"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000072"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000073"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000074"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000075"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000076"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000077"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000078"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000087"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000088"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000089"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000090"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
